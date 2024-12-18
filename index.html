@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eyeglasses Store</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Eyeglasses Store</h1>
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#try-on">Try On</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="home">
+        <div class="hero">
+          <h2>Find Your Perfect Pair</h2>
+          <p>Discover our latest collection of eyeglasses.</p>
+          <a href="#products" class="btn">Shop Now</a>
+        </div>
+      </section>
+
+      <section id="products">
+        <h2>Our Products</h2>
+        <div class="product-list">
+          <div class="product">
+            <img src="glasse 1.jpg" alt="Glasses 1" />
+            <h3>Classic Frame</h3>
+            <p>$99.99</p>
+          </div>
+          <div class="product">
+            <img src="off-white-oerjo60-6000-hd-1.webp" alt="Glasses 2" />
+            <h3>Modern Style</h3>
+            <p>$119.99</p>
+          </div>
+          <div class="product">
+            <img src="glasse 3.jpg" alt="Glasses 3" />
+            <h3>Round Retro</h3>
+            <p>$89.99</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="try-on">
+        <h2>Virtual Try-On</h2>
+        <p>Upload your photo to see how our glasses look on you!</p>
+        <form id="try-on-form">
+          <input type="file" id="upload-photo" accept="image/*" />
+          <button type="button" id="try-on-button">Try Now</button>
+        </form>
+        <div id="try-on-preview">
+          <p>Your photo will appear here.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Eyeglasses Store. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
